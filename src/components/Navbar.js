@@ -3,7 +3,7 @@ const Navbar = () => {
     <header>
       <nav className="container flex navigation">
         <div className="flex nav-left">
-          <h1>Prem</h1>
+          <h1>Samir</h1>
           <div className="line">Soft. Engineer</div>
         </div>
 
@@ -28,6 +28,6 @@ const Navbar = () => {
         </div>
       </nav>
     </header>
-  )
-}
-export default Navbar
+  );
+};
+export default Navbar;

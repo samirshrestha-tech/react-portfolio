@@ -287,3 +287,10 @@ header {
 .email-container i {
   color: var(--color-orange);
 }
+.footer {
+  background: var(--color-dark);
+  color: var(--dark-text-color);
+  padding: 3rem;
+  margin: 3rem 0;
+  text-align: center;
+}

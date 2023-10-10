@@ -19,15 +19,12 @@ function App() {
         </label>
 
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/" element={<Info />} />
-          <Route path="/" element={<Skills />} />
-          <Route path="/" element={<Works />} />
-          <Route path="/" element={<About />} />
-          <Route path="/" element={<Contact />} />
-        </Routes>
-
+        <Hero />
+        <Info />
+        <Skills />
+        <Works />
+        <About />
+        <Contact />
         <Footer />
       </div>
     </>
