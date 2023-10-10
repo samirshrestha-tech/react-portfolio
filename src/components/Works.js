@@ -1,4 +1,4 @@
-import projectImg from "../assets/p1.png"
+import projectImg from "../assets/samir 2.jpg";
 const Works = () => {
   return (
     <section id="projects" className="container projects">
@@ -67,6 +67,6 @@ const Works = () => {
         </div>
       </div>
     </section>
-  )
-}
-export default Works
+  );
+};
+export default Works;

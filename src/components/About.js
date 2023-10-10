@@ -1,4 +1,4 @@
-import profilePic from "../assets/prem.png"
+import profilePic from "../assets/samir.png";
 const About = () => {
   return (
     <section id="about" className="about">
@@ -10,7 +10,7 @@ const About = () => {
         </div>
 
         <div className="about-right">
-          <h2>Prem Acharya</h2>
+          <h2>Samir Shrestha</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, quas
             quaerat repudiandae nulla nihil aspernatur perspiciatis labore
@@ -37,6 +37,6 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
-export default About
+  );
+};
+export default About;
