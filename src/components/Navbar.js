@@ -1,4 +1,6 @@
+import { useState } from "react";
 const Navbar = () => {
+  const [showMenu, setMenu] = useState(false);
   return (
     <header>
       <nav className="container flex navigation">
@@ -8,7 +10,15 @@ const Navbar = () => {
         </div>
 
         <div className="menu">
-          <ul className="flex">
+          <div className="bar">
+            {showMenu ? (
+              <i class="fa-solid fa-xmark" onClick={() => setMenu(false)}></i>
+            ) : (
+              <i class="fa-solid fa-bars" onClick={() => setMenu(true)}></i>
+            )}
+          </div>
+
+          <ul className={showMenu ? "flex slide " : "flex"}>
             <li>
               <a href="#home">Home</a>
             </li>

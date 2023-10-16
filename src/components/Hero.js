@@ -15,9 +15,9 @@ const Hero = () => {
               Download CV <i className="fa-solid fa-download"></i>
             </a>
           </button>
-          <div className="right flex">
-            <img src={profilePic} alt="profile-pic" />
-          </div>
+        </div>
+        <div className="right flex">
+          <img src={profilePic} alt="profile-pic" />
         </div>
       </div>
     </section>

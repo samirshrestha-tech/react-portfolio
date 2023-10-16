@@ -133,9 +133,6 @@ header {
   align-items: center;
   margin-top: -5rem;
 }
-.right img {
-  height: 105%;
-}
 
 /* INFO SECTION */
 .banner {
@@ -294,3 +291,57 @@ header {
   margin: 3rem 0;
   text-align: center;
 }
+
+.bar {
+  display: none;
+}
+
+/* to make the website responsive */
+
+@media (max-width: 768px) {
+  .hero {
+    display: block;
+  }
+  .right {
+    margin-top: 0;
+  }
+  .right img {
+    height: 55%;
+  }
+  .banner {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    width: 50%;
+  }
+  .bar {
+    display: block;
+  }
+  .navigation ul {
+    /* display: none; */
+    flex-direction: column;
+    width: 15rem;
+    position: fixed;
+    left: 100%;
+    top: 3.3rem;
+    background: var(--body-bg);
+    height: 100vh;
+
+    /* transition: all 0.5s ease-in; */
+  }
+  .navigation ul li {
+    line-height: 3rem;
+    font-weight: bold;
+  }
+  .navigation .slide {
+    left: calc(100% - 15rem);
+  }
+  .info-divider {
+    display: none;
+  }
+}
+/* hamburger */
